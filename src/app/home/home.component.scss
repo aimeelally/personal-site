@@ -1,0 +1,16 @@
+$screen-sm-min: 768px;
+.wrapper {
+  background: black;
+  color: white;
+  height: 100%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  @media screen and (min-width: $screen-sm-min) {
+    padding: 0 10%;
+  }
+}
